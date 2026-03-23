@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>
+Account cancelled
+</title>
+<style type="text/css">
+body, table, td, h1, h2, h3, p { 
+font-family: sans-serif; 
+}
+body {
+margin: 0;
+padding: 0;
+background: #191919;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+#scaler {
+width: 560px;
+height: 397px;
+transform-origin: center center;
+flex-shrink: 0;
+}
+</style>
+<display nostatus nooptions switchtowebmode nohome>
+</head>
+<body noscroll bgcolor="#191919" text="#42CC55" link="36d5ff"
+hspace=0 vspace=0 fontsize="large"
+>
+<div id="scaler">
+<table cellspacing=0 cellpadding=0^C>
+<tr>
+<td width=104 height=74 valign=middle align=center bgcolor="3B3A4D">
+<img src="ROMCache/WebTVLogoJewel.gif" width=86 height=64>
+<td width=20 valign=top align=left bgcolor="3B3A4D">
+<img src="ROMCache/Spacer.gif"
+width=1 height=1>
+<td colspan=10 width=436 valign=middle align=left bgcolor="3B3A4D">
+<font color="D6DFD0" size="+2">
+<blackface>
+<shadow>
+<img src="ROMCache/Spacer.gif"
+width=1 height=4>
+<br>
+Account cancelled
+</shadow>
+</blackface>
+</font>
+<tr>
+<td colspan=12 width=560 height=10 valign=top align=left>
+<img src="ROMCache/Shadow.gif" width=560 height=6>
+<tr>
+<td width=104 height=10 valign=top align=left>
+<td width=20 valign=top align=left>
+<td width=67 valign=top align=left>
+<td width=20 valign=top align=left>
+<td width=67 valign=top align=left>
+<td width=20 valign=top align=left>
+<td width=67 valign=top align=left>
+<td width=20 valign=top align=left>
+<td width=67 valign=top align=left>
+<td width=20 valign=top align=left>
+<td width=68 valign=top align=left>
+<td width=20 valign=top align=left>
+<tr>
+<td width=104 valign=middle align=center>
+<td width=20 valign=middle align=center>
+<td colspan=9 width=100 height=258 valign=top align=left>
+<font size=-1>The service account for this
+WebTV receiver
+has been cancelled for violation of the Terms of Service (TOS). <p>Customer Care does not handle support requests regarding cancellations due to TOS violations. </font>
+<tr>
+<td width=104 valign=middle align=center>
+<td width=20 valign=middle align=center>
+<td colspan=10 height=2 valign=middle align=center bgcolor="2B2B2B">
+<img src="ROMCache/Spacer.gif" width=436 height=1>
+<tr>
+<td width=104 valign=middle align=center>
+<td width=20 valign=middle align=center>
+<td colspan=9 height=1 valign=top align=left>
+<tr>
+<td width=104 valign=middle align=center>
+<td width=20 valign=middle align=center>
+<td colspan=10 height=2 valign=top align=left bgcolor="0D0D0D">
+<img src="ROMCache/Spacer.gif" width=436 height=1>
+<tr>
+<td width=104 valign=middle align=center>
+<td width=20 valign=middle align=center>
+<td colspan=9 height=4 valign=top align=left>
+<tr>
+<td width=104 valign=middle align=center>
+<td width=20 valign=middle align=center>
+<td colspan=9 width=416 valign=top align=left>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td width=306 valign=top align=left>
+<font size="-1"><i>
+</i></font><td width=112 valign=top align=right>
+<font size="-1" color="#E7CE4A">
+<shadow>
+<input type="submit" value="Power Off" onclick="window.location.href='../index.html'; return false;" width=110>
+</shadow>
+</font>
+</form>
+</table>
+<td width=20 valign=middle align=center>
+</table>
+</div>
+<script>
+  function scaleToFit() {
+    const scaler = document.getElementById('scaler');
+    const dw = 560; 
+    const dh = 397; 
+    
+    const ww = window.innerWidth;
+    const wh = window.innerHeight;
+
+    const widthRatio = ww / dw;
+    const heightRatio = wh / dh;
+	
+    const bestRatio = Math.min(widthRatio, heightRatio);
+
+    scaler.style.transform = 'scale(' + bestRatio + ')';
+  }
+
+  window.addEventListener('resize', scaleToFit);
+  window.addEventListener('load', scaleToFit);
+  scaleToFit();
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{% include header.html %}
+
+	<bgsound src="{{ page.midi | relative_url }}">
+	<table bgcolor="#5a3baf" id="top" border="5" width="768px" bordercolor="#3F297A" align="center">
+		<tbody>
+			<tr>
+				<td align="center" colspan="2">
+					<h1 style="margin-bottom: 0">Now Playing: {{ page.longtitle }}</h1>
+					<audioscope gain="0" width="857" height="20" leftcolor="purple" rightcolor="lightblue" border="0">
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<table id="top0" bordercolor="#3F297A" width="400px" border="5" bgcolor="#5a3baf" align="center">
+		<tbody>
+			<tr>
+				<td align="center">
+					<a href="{{ '/midi/index.html' | relative_url }}">Back to MIDI Center</a>
+				</td>
+				<td align="center">
+					<a href="{{ page.midi }}">Download MIDI</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</html>
