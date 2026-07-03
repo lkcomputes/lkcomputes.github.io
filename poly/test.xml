@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PolycomIPPhoneText ScreenText="fuck" Dynamic="Title">
+    <Text>i may hate polycom, but spirits are high</Text>
+</PolycomIPPhoneText>
+<PolycomIPPhoneImageFile ScreenText="Image Test">
+    <Image HorizontalAlign="Center" VerticalAlign="Center">lilguy.bmp</Image>
+</PolycomIPPhoneImageFile>
